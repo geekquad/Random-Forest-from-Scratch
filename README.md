@@ -26,3 +26,32 @@ It works in four steps:
   This parameter tells is the number of trees in the forest.
   </ul>
  <hr>   
+
+## Evaluation of the Algorithm:
+### a) Without Parameter Tuning:
+
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        14
+          1       0.94      0.94      0.94        17
+          2       0.93      0.93      0.93        14
+    avg / total   0.96      0.96      0.96        45
+
+#### Accuracy: 0.9555555555555556
+### b) After Parameter Tuning:
+            precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        14
+          1       1.00      0.94      0.97        17
+          2       0.93      1.00      0.97        14
+    avg / total   0.98      0.98      0.98        45
+
+#### Accuracy: 0.9777777777777777
+<hr> </hr>
+
+## Finding Imoprtant Features using Seaborn Library:
+Finding important features or selecting features in the IRIS dataset.
+
+<img src="https://github.com/geekquad/Random-Forest-from-Scratch/blob/master/feature%20visualization.png">
+
+
